@@ -17,3 +17,7 @@ spec:
       # scale up if usage is above
       # 99% of the requested CPU (10m)
       targetAverageUtilization: 99
+  - type: Resource
+    resource:
+      name: memory            
+      targetAverageUtilization: 10Mi
