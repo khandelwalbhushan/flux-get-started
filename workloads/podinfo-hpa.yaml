@@ -16,7 +16,7 @@ spec:
       name: cpu 
       target:
         type: Utilization 
-        averageValue: 0.5Mi
+        averageValue: 1m
   - type: Resource
     resource:
       name: memory 
